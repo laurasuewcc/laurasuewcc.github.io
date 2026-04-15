@@ -91,21 +91,26 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   min-height: 40vh;               /* Use 40vh (shorter on mobile) */
-  background-color: #FFF3E0;
+  background-color: #3E2723;
   padding: 32px 16px;
   text-align: center;
+  
+  background-image: url('images/coffee-hero2-web.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .hero h1 {
   font-family: Georgia, serif;
   font-size: 2rem;                /* Use 2rem (smaller on mobile) */
-  color: #5D4037;
+  color: #FFFAF0;
   margin-bottom: 16px;
 }
 
 .hero p {
   font-size: 1.1rem;
   margin-bottom: 24px;
+  color: #FFFAF0;
 }
 
 /* Button (same as Weeks 10-11) */
@@ -175,6 +180,15 @@ footer {
   color: #FFFAF0;
   text-align: center;
   padding: 20px;
+}
+
+footer a {
+  color: #C65500;
+}
+
+footer a:hover {
+  background-color: #C65500;
+  color: #5D4037;
 }
 
 /* ===================
